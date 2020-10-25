@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    padding: 20px 40px;
+    background-color: none;
+}
+
+header img{
+    height: 60%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 28%;
+    margin-right: 26px;
+}
+
+.anchor-style {
+    text-decoration: none;
+    color: gray;
+}
+
+.sing-up-button{
+    font-weight: 800;
+    border: none;
+    background-color: rgb(58, 24, 243);
+    color: whitesmoke;
+    width: 100px;
+    height: 28px;
+    border-radius: 4px;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+}
+
+#background-image{
+    background-image: url(/assets/images/MaskGroup.png);
+    background-position: center;
+}
+
+.main-text{
+    font-size: 54px;
+    margin: 0px;
+    color: #333;
+}
+
+.guarantee-text{
+    width: 420px;
+    margin: 0;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    color: #333;
+}
+
+#highlight-text{
+    text-decoration: none;
+    color: rgb(106, 186, 165);
+    font-weight: bold;
+}
+
+.plan-section{
+    display: flex;
+    justify-content: space-around;
+    width: 80vp;
+}
+
+.info-rectangle{
+    width: 25vw;
+    border: 2px solid rgb(175, 175, 175);
+    padding: 8px 30px 30px 30px;
+    color: #333;
+    border-radius: 4px;
+}
+
+.info-rectangle-center{
+    width: 25vw;
+    background-color: rgb(58, 24, 243);
+    padding: 8px 30px 30px 30px;
+    color: whitesmoke;
+    border-radius: 4px;
+}
+
+section div h1{
+    font-size: 34px;
+    margin-top: 14px;
+    margin-bottom: 2px;
+    font-weight: lighter;
+    color: black;
+}
+
+#price-center{
+    font-size: 34px;
+    margin-top: 14px;
+    margin-bottom: 2px;
+    font-weight: lighter;
+    color: white;
+}
+
+section div p{
+    font-size: 12px;
+    margin-top: 0;
+    font-weight: bold;
+    color: rgb(175, 175, 175);
+}
+
+section div ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+}
+
+.plan-button{
+    font-weight: 600;
+    border: none;
+    background-color: rgb(58, 24, 243);
+    color: whitesmoke;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#plan-button-center{
+    font-weight: 600;
+    border: none;
+    background-color: whitesmoke;
+    color: rgb(58, 24, 243);
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.check-bullet{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
