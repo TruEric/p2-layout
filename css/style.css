@@ -61,6 +61,7 @@ nav{
 .main-text{
     font-size: 54px;
     margin: 0px;
+    font-weight: 300;
     color: #333;
 }
 
@@ -101,7 +102,7 @@ nav{
     border-radius: 4px;
 }
 
-section div h1{
+.price{
     font-size: 34px;
     margin-top: 14px;
     margin-bottom: 2px;
@@ -125,6 +126,10 @@ section div p{
 }
 
 section div ul{
+    padding: 0%;
+}
+
+section div ul li{
     display: flex;
     align-items: center;
     list-style: none;
